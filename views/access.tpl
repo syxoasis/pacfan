@@ -63,11 +63,9 @@
 
     <div class="row">
       <div class="large-12 columns">
-        <div class="row-title">啧啧啧！</div>
+        <div class="row-title">{{message}}</div>
         <br>
-        
-        <h6>你是谁呀？你从哪里来？到哪里去？</h6>
-        <h6 class="subheader">请登录或注册后再访问：</h6>
+
         <div class="row">
   <div class="large-6 columns">
   <h3 class="row-title">登录</h3>
@@ -120,14 +118,14 @@
 
 
     <div class="large-12 columns text-left">
-    <h4><small><a href="/contact?locale=zh-CN">中文版 </a></small> 
+    <h4><small><a href="/contact?locale=zh-CN">中文版 </a></small>
    <small><a href="/contact?locale=en"> English</a></small></h4><h4>
    <small>熊猫翻滚.Beta © 2012-2013 <a href="http://www.miibeian.gov.cn/">京ICP备12050215号</a></small></h4><br>
-   
+
 
 
     </div>
-   
+
     </div>
 
 
@@ -135,14 +133,14 @@
 
 
     <div class="large-12 columns text-center">
-    <h4><small><a href="/contact?locale=zh-CN">中文版 </a></small> 
+    <h4><small><a href="/contact?locale=zh-CN">中文版 </a></small>
    <small><a href="/contact?locale=en"> English</a></small></h4><h4>
    <small>熊猫翻滚.Beta © 2012-2013 <a href="http://www.miibeian.gov.cn/">京ICP备12050215号</a></small></h4><br>
-   
+
 
 
     </div>
-   
+
     </div>
 
   <script src="js/vendor/jquery.js"></script>

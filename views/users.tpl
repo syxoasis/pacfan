@@ -66,7 +66,7 @@
     <div class="large-12 columns">
       <div class="row">
         <div class="large-12 columns">
-          <div class="row-title">欢迎，Tiotao</div>
+          <div class="row-title">欢迎，{{username}}</div>
 
           <br><br>
         </div>
@@ -101,7 +101,7 @@
 
 
 
-  
+
 
   <div class="row grey-break-line">
   </div>
@@ -110,14 +110,14 @@
     <div class="large-12 columns">
       <div class="row">
         <div class="large-12 columns">
-          <div class="row-title">余额：200.00 RMB <a href="#" id="top-up-link"> 充值</a></div>  
+          <div class="row-title">余额：200.00 RMB <a href="#" id="top-up-link"> 充值</a></div>
 
           <br>
 
         </div>
       </div>
       <div class="row">
-        <div class="large-3 columns service-block purple-bg">
+        <div class="large-12 columns service-block purple-bg">
           <h4>宇宙熊猫</h4>
           <h4><small><b><i class="fa fa-circle fa-fw"></i> 服务状态正常</b><br>服务套餐： VIP<br>
             服务折扣： NULL 折<br>
@@ -125,29 +125,7 @@
             剩余流量： 2.1 GB
 
           </small></h4>
-          <center><a href="#" data-reveal-id="service-a-details" class="large-12 small-12 tiny secondary button ">查看详情</a></center>
-
-        </div>
-        <div class="large-3 columns service-block grey-bg">
-          <h4>地球熊猫</h4>
-          <h4><small><b><i class="fa fa-circle-o fa-fw"></i> 您尚未开通此项服务</b>
-
-          </small></h4>
-          <center><a href="#" data-reveal-id="service-b-details" class="large-12 small-12 tiny secondary button">开通服务</a></center>
-
-        </div>
-
-        <div class="large-3 columns service-block red-bg">
-          <h4>银河熊猫</h4>
-          <h4><small><b><i class="fa fa-minus-circle fa-fw"></i> 服务状态不正常</b><br>服务套餐： VIP<br>
-            服务折扣： NULL 折
-
-          </small></h4>
-          <center><a href="#" data-reveal-id="service-c-details" class="large-12 small-12 tiny secondary button ">查看详情</a></center>
-
-        </div>
-
-        <div class="large-3 columns">
+          <center><a href="#" data-reveal-id="service-a-details" class="large-3 small-12 tiny secondary button ">查看详情</a></center>
 
         </div>
       </div>
@@ -191,12 +169,12 @@
        <input onfocus=this.select() onmouseover=this.focus() type="text" data-width="210" value="https://www.pandafan.org/?r=49">
 
 
-       
+
 
      </div>
    </div>
  </div>
- 
+
 </div>
 
 
@@ -208,7 +186,7 @@
 
 
   <div class="large-12 columns text-left">
-    <h4><small><a href="/contact?locale=zh-CN">中文版 </a></small> 
+    <h4><small><a href="/contact?locale=zh-CN">中文版 </a></small>
      <small><a href="/contact?locale=en"> English</a></small></h4><h4>
      <small>熊猫翻滚.Beta © 2012-2013 <a href="http://www.miibeian.gov.cn/">京ICP备12050215号</a></small></h4><br>
 
@@ -223,7 +201,7 @@
 
 
   <div class="large-12 columns text-center">
-    <h4><small><a href="/contact?locale=zh-CN">中文版 </a></small> 
+    <h4><small><a href="/contact?locale=zh-CN">中文版 </a></small>
      <small><a href="/contact?locale=en"> English</a></small></h4><h4>
      <small>熊猫翻滚.Beta © 2012-2013 <a href="http://www.miibeian.gov.cn/">京ICP备12050215号</a></small></h4><br>
 
@@ -234,25 +212,25 @@
  </div>
 
  <div id="service-a-details" class="reveal-modal medium" data-reveal>
-  <div class="row"> 
+  <div class="row">
     <div class="large-12 columns">
       <h3 class="row-title"><b>宇宙熊猫</b></h3>
       <br>
-      <dl class="sub-nav tabs vertical" data-tab> 
+      <dl class="sub-nav tabs vertical" data-tab>
         <dd class="active">
           <a href="#service-details"><h4><small class="details-tab" ><i class="fa fa-info-circle fa-fw"></i> 服务详情</small></h4></a>
-        </dd> 
+        </dd>
         <dd><a href="#plan"><h4><small class="details-tab" ><i class="fa fa-asterisk fa-fw"></i> 修改套餐</small></h4></a>
-        </dd> 
+        </dd>
         <dd><a href="#proxy-config"><h4><small class="details-tab" ><i class="fa fa-cloud fa-fw"></i> 代理列表</small></h4></a>
-        </dd> 
+        </dd>
         <dd><a href="#payment-preference"><h4><small class="details-tab" ><i class="fa fa-credit-card fa-fw"></i> 续费设置</small></h4></a>
-        </dd> 
+        </dd>
         <dd><a href="#user-guide"><h4><small class="details-tab" ><i class="fa fa-question-circle fa-fw"></i> 使用方法</small></h4></a>
-        </dd> 
-      </dl> 
-      <div class="tabs-content vertical"> 
-        <div class="content active" id="service-details"> 
+        </dd>
+      </dl>
+      <div class="tabs-content vertical">
+        <div class="content active" id="service-details">
           <div class="row">
             <div class="large-12 columns">
               <h4 class="details-title">基本信息</h4>
@@ -305,8 +283,8 @@
 
               </div>
             </div>
-          </div> 
-          <div class="content" id="plan"> 
+          </div>
+          <div class="content" id="plan">
 
             <div class="row">
 
@@ -381,7 +359,7 @@
 
                       </div>
 
-                      <div class="content" id="proxy-config"> 
+                      <div class="content" id="proxy-config">
 
                         <div class="row">
 
@@ -416,8 +394,8 @@
 
                           </div>
 
-                        </div> 
-                        <div class="content" id="payment-preference"> 
+                        </div>
+                        <div class="content" id="payment-preference">
                           <form data-abide>
                             <div class="row">
 
@@ -440,7 +418,7 @@
 
                           </form>
                         </div>
-                        <div class="content" id="user-guide"> 
+                        <div class="content" id="user-guide">
                           <form data-abide>
                             <div class="row">
 <div class="large-12 columns">
@@ -471,8 +449,8 @@
             <li>点击上方的「代理(Proxies)」，然后勾选上「自动代理配置(Automatic Proxy Configuration)」，然后在右侧的URL输入框中输入：</li>
               <span class="alert radius label">请勿泄露您的专属地址！</span>
             <input onfocus=this.select() onmouseover=this.focus() type="text" data-width="210" value="https://www.pandafan.org/?r=49">
-            
-            
+
+
             <li>然后点击「OK」、「Apply」，设置便完成了。</li>
             <img src="https://www.pandafan.org/assets/howto/mac/mac_4-4d90b06affebb7d1a31cc06a0c78bf94.png">
             <li>
@@ -492,8 +470,8 @@
             <li>勾选上「使用自动配置脚本」，在「地址」栏中填入：</li>
 <span class="alert radius label">请勿泄露您的专属地址！</span>
             <input onfocus=this.select() onmouseover=this.focus() type="text" data-width="210" value="https://www.pandafan.org/?r=49">
-            
-            
+
+
             <li>然后点击「确定」、「确定」，设置便完成了。</li>
             <img src="https://www.pandafan.org/assets/howto/win/win_3-4b1d0f859cfcf16c7edb1ad2a9eca6c3.png">
             <li>
@@ -512,7 +490,7 @@
             <a href="#" class="button radius tiny">中国联通</a>
             <a href="#" class="button radius tiny">中国移动</a>
             <a href="#" class="button radius tiny">中国电信</a>
-            
+
 
             <li>点击对应链接后，稍等片刻后会跳出如下图的画面，点击「安装」即可</li>
             <img src="https://www.pandafan.org/assets/howto/ios/ios_1-62590b87246d341fa25635224de3f05e.png">
@@ -542,7 +520,7 @@
             <li>设置完毕的样子类似下图</li>
             <img src="https://www.pandafan.org/assets/howto/wifi/ios_2-a259c9ca660a118883339cccfdc2ac7f.png">
             <li>如需取消，请在HTTP代理一栏处选择「关闭」即可</li>
-            
+
             </ul>
             </div>
 
@@ -568,9 +546,9 @@
             <input onfocus=this.select() onmouseover=this.focus() type="text" data-width="210" value="12345">
             <span class="alert radius label">请注意保密您的端口地址！不要泄露给其他人</span>
             <img src="https://www.pandafan.org/assets/howto/android/3g/data4-ccf8e6d792487acfc760aad21487413c.png">
-            
-            
-            
+
+
+
             </ul>
             </div>
 <div class="large-2 columns">
@@ -599,9 +577,9 @@
             <input onfocus=this.select() onmouseover=this.focus() type="text" data-width="210" value="12345">
             <span class="alert radius label">请注意保密您的端口地址！不要泄露给其他人</span>
             <img src="https://www.pandafan.org/assets/howto/android/wifi/wifi6-9cc11b85338eee6276dab1ca85126760.png">
-            
-            
-            
+
+
+
             </ul>
             </div>
 
@@ -625,9 +603,9 @@
             <input onfocus=this.select() onmouseover=this.focus() type="text" data-width="210" value="12345">
             <span class="alert radius label">请注意保密您的端口地址！不要泄露给其他人</span>
             <img src="https://www.pandafan.org/assets/howto/wp/3g/data2-fe77ea0058e2d8380423d77d8fbe914a.jpg">
-            
-            
-            
+
+
+
             </ul>
             </div>
 <div class="large-2 columns">
@@ -652,9 +630,9 @@
             <input onfocus=this.select() onmouseover=this.focus() type="text" data-width="210" value="12345">
             <span class="alert radius label">请注意保密您的端口地址！不要泄露给其他人</span>
             <img src="https://www.pandafan.org/assets/howto/wp/wifi/wifi4-c313b2ca3419f4801ef528a2b152ed39.jpg">
-            
-            
-            
+
+
+
             </ul>
             </div>
 
@@ -689,7 +667,7 @@
                       for(var i = 0, length = selected.length; i < length; i++){
                         $(".plan-block-selected")[i].className = "panel plan-block";
                       }
-                      document.getElementById(id).className = "panel plan-block-selected"; 
+                      document.getElementById(id).className = "panel plan-block-selected";
                     }
 
                   </script>
