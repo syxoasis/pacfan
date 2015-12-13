@@ -6,6 +6,7 @@ import sqlite3
 import database
 import os
 import sys
+import users
 from bottle import route
 from bottle import run
 from bottle import template
@@ -39,10 +40,12 @@ def server_static(filename):
 #处理用户注册
 @route('/signup', method="post")
 def register_user():
-	user = request.forms.get('SignupForm[username]')
-	pwd = request.forms.get('SignupForm[password]')
-	pwdconfirm = request.forms.get('SignupForm[pwdconfirm]')
-	signupMessage = "注册成功，请登录"
+	signupInfo = {}
+	signupInfo['user'] = request.forms.get('SignupForm[username]')
+	signupInfo['pwd'] = request.forms.get('SignupForm[password]')
+	signupInfo['pwdconfirm'] = request.forms.get('SignupForm[pwdconfirm]')
+
+	signupMessage = users.signup(signupInfo)
 	return template('access',message=signupMessage)
 
 #处理用户登录
