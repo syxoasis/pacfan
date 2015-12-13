@@ -2,6 +2,8 @@
 
 import sqlite3
 import database
+import os
+import sys
 from bottle import route
 from bottle import run
 from bottle import template
@@ -17,24 +19,29 @@ def server_index():
 @route('/<filename>')
 def server_static(filename):
 	return static_file(filename, root='./static/')
-@route('/index_files/<filename>')
+@route('/css/<filename>')
 def server_static(filename):
-	return static_file(filename,root='./static/index_files/')
-@route('/register')
-def do_register():
-
-	#database.insert_exec("insert into account(id,username,nickname) values (2,'oasis15@sina.com','syx');")
-	return "hello word"
+	return static_file(filename,root='./css')
+@route('/register', method="get")
+def send_form_register():
+	return static_file("register.html",root='./static/')
+@route('/register', method="post")
+def register_user():
+	user = request.forms.get('RegisterForm[username]')
+	pwd = request.forms.get('RegisterForm[password]')
+	#database.Insert("insert into account(username,password) values ('"+user+"','"+pwd+"');")
+	return "insert into account(username,password) values ('"+user+"','"+pwd+"');"
+    #return "after insert"
 @post('/login')
 def do_login():
 	userinfo = {'username': 'root', 'total': '7M', 'register_time': '2015-12-10 13:02:37'};
-	username = request.forms.get('username')
-	password = request.forms.get('password')
+	username = request.forms.get('LoginForm[username]')
+	password = request.forms.get('LoginForm[password]')
 	userinfo['username'] = username
 
 	#return static_file("dashboard.html",root='./static')
 	return template('dashboard',username=userinfo['username'],register_time = userinfo['register_time'])
 	#return 
 if __name__ == '__main__':
-	#cu.execute("create table account (id integer primary key autoincrement,username varchar(10) UNIQUE,nickname text NULL)")
-	run(host='0.0.0.0', port=8080,debug=True)
+    #database.DBInit()
+    run(host='0.0.0.0', port=80,debug=True)

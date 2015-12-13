@@ -1,0 +1,261 @@
+*,a, h1, h2, h3, h4, h5, h6, button, .pricing-table, .title, .label, .button {
+	font-family:"Hiragino Sans GB","Helvetica Neue","Helvetica",微软雅黑,Helvetica,Arial,sans-serif;
+}
+
+.pricing-table .title {
+	font-family:"Hiragino Sans GB", "Helvetica Neue","Helvetica",微软雅黑,Helvetica,Arial,sans-serif;
+}
+
+.pricing-table .price {
+	font-family:"Hiragino Sans GB","Helvetica Neue","Helvetica",微软雅黑,Helvetica,Arial,sans-serif;
+}
+
+#header {
+	padding-top: 3em;
+	background-image:url(../img/background.png);
+	height:200px;
+	background-size: 400px;
+	background-repeat:no-repeat;
+	background-position: 80% 2em;
+}
+
+#mobile-header {
+	padding-top: 3em;
+	height:200px;
+}
+
+.service-block {
+	padding-top: 1em;
+	border-width: 1em;
+	border-style: solid;
+	border-color:white;
+}
+
+.service-block * {
+	color: white;
+}
+
+.service-details {
+	background-color:white;
+	color:#9966cc;
+}
+
+
+.break-line {
+	background-color: #9966cc;
+	height:0.5em;
+	margin-bottom:2em;
+}
+
+.grey-break-line {
+	background-color: #cccc99;
+	margin-top:2em;
+	margin-bottom:2em;
+	height:0.5em;
+}
+
+.grey-end-line {
+	background-color: #cccc99;
+	margin-top:2em;
+	height:0.5em;
+}
+
+.description-title {
+	font-size:3em;
+	color: #cccc99;
+}
+
+
+.description-final {
+	word-spacing:2em;
+	font-size:2em;
+	color: #9966cc;
+}
+
+.description-final span {
+	letter-spacing:1em;
+}
+
+.description-final small span {
+	letter-spacing:1em;
+}
+
+.description-final small {
+	color: #9966cc;
+}
+
+
+
+
+#footer {
+	padding-top:2em;
+	padding-bottom: 3em;
+	background-image:url(../img/background.png);
+	height:200px;
+	background-size: 400px;
+	background-repeat:no-repeat;
+	background-position: 80% -300px;
+}
+
+#footer {
+	padding-top:2em;
+	padding-bottom: 3em;
+	height:200px;
+}
+
+.vertical-text div {
+	line-height:1.2em;
+	width:1.5em; 
+	float:right;
+	font-size:0.9em;
+	font-family:"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+}
+
+.horizontal-text div {
+	font-size:0.9em;
+	line-height:1.2em;
+	font-family:"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+}
+
+.row-title {
+	color: #9966cc;
+	font-size:2em;
+	font-family:"Hiragino Sans GB","Helvetica Neue","Helvetica",微软雅黑,Helvetica,Arial,sans-serif;
+}
+
+.details-title {
+	color: #cccc99;
+	font-size:1.5em;
+	font-family:"Hiragino Sans GB","Helvetica Neue","Helvetica",微软雅黑,Helvetica,Arial,sans-serif;
+}
+
+.en {
+	font-family:"Helvetica Neue", Helvetica, Arial;
+}
+
+#story-title {
+	line-height:1em;
+	color: #9966cc;
+	font-size:2em;
+	font-family:"Hiragino Sans GB","Helvetica Neue","Helvetica",微软雅黑,Helvetica,Arial,sans-serif;
+}
+
+.green {
+	color:#339966;
+}
+
+.purple {
+	color: #9966cc;
+}
+
+.purple-bg {
+	background-color: #9966cc;
+}
+
+.red-bg {
+	background-color: #ff6666;
+}
+
+.grey-bg {
+	background-color: #cccc99;
+}
+
+.grey {
+	color: #cccc99;
+}
+
+.domains-list {
+	height:8em;
+}
+
+.orange.label {
+	background-color: #f39c12;
+}
+
+.label {
+	margin-left: 5px;
+}
+
+.tabs dd.active a {
+	background-color: #9966cc;
+	padding: 0em 0em 0em 1em;
+	color: white;
+	line-height: 0em;
+}
+
+.tabs dd a {
+	background-color: white;
+	padding: 0em 0em 0em 1em;
+	color: #9966cc;
+	line-height: 0em;
+
+}
+
+dd.active a h4 .details-tab {
+	color: white;
+	border-radius: 3px;
+}
+
+dd a {
+	color: #9966cc;
+	border-radius: 3px;
+}
+
+#top-up-link {
+	font-size :1em;
+	color: #cccc99;
+}
+
+.plan-block {
+	background: white;
+	border-color: #E6D9F2;
+}
+
+.plan-block *, .plan-block h4, .plan-block h5 {
+	color:#E6D9F2;
+}
+
+
+
+.plan-block:hover{
+	background: white;
+	border-color: #9966cc;
+}
+
+.plan-block:hover *, .plan-block:hover h4, .plan-block:hover h5 {
+	color: #9966cc;
+}
+
+
+
+.plan-block-selected {
+	background: white;
+	border-color: #9966cc;
+}
+
+.plan-block-selected *, .plan-block-selected h4, .plan-block-selected h5 {
+	color: #9966cc;
+}
+
+.content {
+	width:100%;
+}
+
+.alert-white {
+	background-color:#ff6666;
+	color: white;
+}
+
+#osx ul li, #wp ul li, #ios ul li, #android ul li, #windows ul li {
+	font-size:0.8em;
+	color:#6F6F6F;
+}
+
+#payment-preference * {
+	color:#6F6F6F;
+}
+
+
+
+
+
