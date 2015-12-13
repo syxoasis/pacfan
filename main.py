@@ -51,13 +51,20 @@ def register_user():
 #处理用户登录
 @post('/login')
 def do_login():
-	userinfo = {'username': 'root', 'total': '7M', 'register_time': '2015-12-10 13:02:37'};
-	username = request.forms.get('LoginForm[username]')
-	password = request.forms.get('LoginForm[password]')
-	userinfo['username'] = username
+	logininfo = {};
+	logininfo['username'] = request.forms.get('LoginForm[username]')
+	logininfo['password'] = request.forms.get('LoginForm[password]')
+	#message = users.login(logininfo)
+	#return message
+	if users.login(logininfo) == True:
+		return template('users',username=logininfo['username'],register_time = '2015-10-19 11:12:34')
+	else:
+		return template('access',message="用户名或密码错误")
 
-	return template('users',username=userinfo['username'],register_time = userinfo['register_time'])
+
+	#userinfo['username'] = username
+
 	#return template('users',userinfo)
 if __name__ == '__main__':
-    #database.DBInit()
+    #database.Init()
     run(host='0.0.0.0', port=80,debug=True)
